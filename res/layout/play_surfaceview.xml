@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.timeslily.videoplayer.PlaySurfaceView
+        android:id="@+id/pv_play_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rl_video_top"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="top"
+        android:background="#88000000" >
+
+        <TextView
+            android:id="@+id/tv_video_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="11111"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/tv_time"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="100%"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_video_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#88000000"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tv_current_time"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="03:07" />
+
+            <SeekBar
+                android:id="@+id/sb_video_seek"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="6" />
+
+            <TextView
+                android:id="@+id/tv_total_time"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="07:20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/ib_previous"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/previous" />
+
+            <ImageButton
+                android:id="@+id/ib_play"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/play"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/ib_pause"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/pause" />
+
+            <ImageButton
+                android:id="@+id/ib_next"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/next" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

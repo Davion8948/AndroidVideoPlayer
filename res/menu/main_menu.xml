@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/add_video_folder"
+        android:icon="@drawable/add_menu_selecter"
+        android:showAsAction="ifRoom"
+        android:title="@string/add_video_folder"/>
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/refresh_menu_selecter"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_refresh"/>
+    <item
+        android:id="@+id/menu_play_last"
+        android:icon="@drawable/play_menu_selecter"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_play_last"/>
+    <item
+        android:id="@+id/menu_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search_menu_selecter"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:title="@string/menu_search"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+</menu>

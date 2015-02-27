@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<string name="app_name">Video Player</string>
+	<string name="editNumOfFrames_hint">No. of frames to grab</string>
+	<string name="buttonStart_text">Start</string>
+	<string name="add_video_folder">add folder</string>
+	<string name="back">parent directory</string>
+	<string name="cancel">Cancel</string>
+	<string name="save">Save</string>
+	<string name="folder">Folders</string>
+	<string name="file">File</string>
+	<string name="media">Media</string>
+	<string name="play_time">Play time</string>
+	<string name="location">Location</string>
+	<string name="video_count">video_count</string>
+	<string name="size">Size</string>
+	<string name="date">Date</string>
+	<string name="is_root">Arrived root directory</string>
+	<string name="some_tail">videos</string>
+	<string name="menu_refresh">refresh</string>
+	<string name="menu_play_last">last play</string>
+	<string name="menu_search">search</string>
+	<string name="menu_settings">settings</string>
+	<string name="last_play_not_exist">Play history does not exist</string>
+	<string name="last_play_video_not_exist">Video file does not exist</string>
+	<string name="sdcard_not_exist">SDcard does not exist</string>
+	<string name="folder_not_exist">Folder does not exist</string>
+	<string name="add_folder_success">Success add %d video folder(s)</string>
+	<string-array name="dialog_items">
+		<item>Delete</item>
+		<item>Rename</item>
+		<item>Properties</item>
+	</string-array>
+	<string name="delete">Delete</string>
+	<string name="delete_confirm">Are you sure to delete?\n\n%s</string>
+	<string name="ok">Ok</string>
+	<string name="rename">Rename to</string>
+	<string name="rename_hint">Please input file name</string>
+	<string name="rename_failed">failed to rename</string>
+	<string name="file_path">Location</string>
+	<string name="file_date">Date</string>
+	<string name="file_video_count">Video count</string>
+	<string name="file_size">Total video size</string>
+	<string name="file_name_illegal">File name illegal, please try again</string>
+	<string name="file_name_exist">File name exist</string>
+	<string name="format_duration">/%s</string>
+	<string name="no_video">No Videos under this folder</string>
+	<string name="search_hint">Please input keyword(s)</string>
+	<string name="play_over">over</string>
+	<string name="add_current_folder">(add current folder)</string>
+	<string name="video_not_exist">Video file doex not exist, has deleted</string>
+	<string-array name="video_dialog_items">
+		<item>Play</item>
+		<item>Delete</item>
+		<item>Rename</item>
+		<item>Properties</item>
+	</string-array>
+	<string name="delete_file_permanent">Following file(s) will be deleted permanently.
+	</string>
+	<string name="delete_folder_meanwhile">Delete folder at the same time
+	</string>
+	<string name="delete_failed">Delete failed</string>
+	<string name="delete_success">Delete success</string>
+	<string name="search">Search</string>
+	<string name="search_invoke">voice</string>
+	<string name="electric_quantity">Electric quantity:</string>
+	<string name="no_result">No items match your search.</string>
+	<string name="clear_search_history">Clear search history</string>
+	<string name="clear_search_hint">Clear all search history</string>
+	<string name="clear_search_title">Clear history</string>
+	<string name="clear_search_message">Are you sure to delete all search history?</string>
+	<string name="clear_ok">Clear ok</string>
+	<string name="continue_last_play">Whether to resume the last play</string>
+	<string name="continue_last_play_yes">Yes, resume from the point where you stopped. </string>
+	<string name="continue_last_play_no">No, play start from the beginning.</string>
+	<string name="can_not_rename_sdcard">Sdcard directory can\'t rename.</string>
+	<string name="could_not_play_video">Could not play video.</string>
+</resources>

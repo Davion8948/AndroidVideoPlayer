@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings" >
+
+
+    <com.timeslily.MyDialogPreference
+        android:dialogMessage="@string/clear_search_message"
+        android:dialogTitle="@string/clear_search_title"
+        android:key="myDialogPreference"
+        android:negativeButtonText="@android:string/cancel"
+        android:positiveButtonText="@android:string/ok"
+        android:summary="@string/clear_search_hint"
+        android:title="@string/clear_search_history" />
+
+</PreferenceScreen>
